@@ -6,7 +6,6 @@ declare module 'redux-responsive' {
         medium: number,
         large: number,
         extraLarge: number,
-        infinity: number,
     }
 
     export interface IBreakPointResults {
@@ -15,18 +14,15 @@ declare module 'redux-responsive' {
         medium: boolean,
         large: boolean,
         extraLarge: boolean,
-        infinity: boolean,
     }
 
 
     export interface IBrowser {
-        _responsiveState: boolean
         mediaType: string
         orientation: string
         lessThan: IBreakPointResults
         greaterThan: IBreakPointResults
         is: IBreakPointResults
-        breakpoints: IBreakPoints
 
     }
 

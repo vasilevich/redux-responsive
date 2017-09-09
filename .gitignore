@@ -1,9 +1,4 @@
 node_modules
 coverage/
-/lib
 /index.min.js
 /react.min.js
-/index.js
-/react.js
-/index.js.map
-/react.js.map
